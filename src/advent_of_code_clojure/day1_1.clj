@@ -1,8 +1,8 @@
-(ns advent-of-code-clojure.day1
+(ns advent-of-code-clojure.day1_1
   (:require [clojure.java.io :as io])
   (:require [clojure.string :as str]))
 
-(defn -day1
+(defn -day1_1
   "Day1 challenge"
   [filename]
   (let [result (let [heights (map
